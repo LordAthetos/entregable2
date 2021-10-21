@@ -7,7 +7,7 @@ public class PlayerHP : MonoBehaviour
 {
 
     [SerializeField] private bool isGameOver;
-    [SerializeField] private int playerHP = 100;
+    private int playerHP = 100;
     public int damage = 30;
 
 
@@ -32,7 +32,7 @@ public class PlayerHP : MonoBehaviour
             }
             else if (playerHP !< 20)
             {
-                Debug.Log(message: "¡Tienes poca vida!");
+                Debug.Log(message: "Â¡Tienes poca vida!");
 
             }
             else
